@@ -15,6 +15,11 @@ public class UserAdapter extends BaseAdapter {
     private Context context;
 
     private List<User> users;
+<<<<<<< HEAD
+=======
+//
+     private  Tuannguuvailoz tuanngu;
+>>>>>>> 9b0240fee3d1c030d67ef1b10307816614a18412
 
     private DatabaseHelper db;
 
@@ -22,6 +27,7 @@ public class UserAdapter extends BaseAdapter {
         this.context = context;
         this.users = users;
        this.db = new DatabaseHelper(context);
+
     }
 
     @Override
