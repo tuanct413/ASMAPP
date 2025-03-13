@@ -15,7 +15,7 @@ public class UserAdapter extends BaseAdapter {
     private Context context;
 
     private List<User> users;
- private layout dbHelper;
+
     private DatabaseHelper db;
 
     public UserAdapter(Context context,List<User>users) {
