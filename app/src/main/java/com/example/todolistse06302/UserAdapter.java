@@ -54,5 +54,6 @@ public class UserAdapter extends BaseAdapter {
 
 
         return view;
+        //tuandeptraivailoz
     }
 }
