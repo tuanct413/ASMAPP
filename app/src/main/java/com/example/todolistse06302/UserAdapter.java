@@ -13,9 +13,11 @@ import java.util.List;
 
 public class UserAdapter extends BaseAdapter {
     private Context context;
+
     private List<User> users;
-//    private database dbHelper;
+ private layout dbHelper;
     private DatabaseHelper db;
+
     public UserAdapter(Context context,List<User>users) {
         this.context = context;
         this.users = users;
@@ -54,6 +56,6 @@ public class UserAdapter extends BaseAdapter {
 
 
         return view;
-        //tuandeptraivailoz
+
     }
 }
